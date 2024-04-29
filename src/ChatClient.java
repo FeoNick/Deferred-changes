@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ChatClient implements Runnable {
-    Socket socket;
+    Socket socket; // это соккет
     Scanner in;
     PrintStream out;
     ChatServer server;
